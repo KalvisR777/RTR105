@@ -4,7 +4,7 @@
 
 *Otrā nodarbība iepazīšanās ar shell komandām.*
 
-    Šīs komandas ir ekvivalentas parastai datorpeles izmantošanai un keyboard shortcut lietošanai. atkarībā, ko meklē/ vēlas izdarīt, 
+    Šīs komandas ir ekvivalentas parastai datorpeles izmantošanai un keyboard shortcut lietošanai. Atkarībā, ko meklē/ vēlas izdarīt, 
     komandas var būt daudz ātrākas un parocīgākas. Ar komandām bieži vien procesiem var izlaist vairākus liekus soļus. Piemēram, ar komandu "wget"
     var lejuplādēt jebkuru failu no interneta, pēc "wget" ierakstot saiti. Ar history komandu, var redzēt iepriekš veiktās komandas. Uz windows vai
     mac platformas nevar izsekot iepriekšējās pārvietošanās pa failu direkciju. Ņemot vērā, ka izmantojot komandu "top" var apskatīt izmantotos datora
