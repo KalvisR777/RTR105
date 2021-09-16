@@ -1,6 +1,9 @@
 # RTR105
-datorzinības (pamatkurss) elektroniskā klade
-Otrā nodarbība linux komandas.
+# Datorzinības (pamatkurss) elektroniskā klade
+
+
+*Otrā nodarbība iepazīšanās ar shell komandām.*
+
     Šīs komandas ir ekvivalentas parastai datorpeles izmantošanai un keyboard shortcut lietošanai. atkarībā, ko meklē/ vēlas izdarīt, 
     komandas var būt daudz ātrākas un parocīgākas. Ar komandām bieži vien procesiem var izlaist vairākus liekus soļus. Piemēram, ar komandu "wget"
     var lejuplādēt jebkuru failu no interneta, pēc "wget" ierakstot saiti. Ar history komandu, var redzēt iepriekš veiktās komandas. Uz windows vai
