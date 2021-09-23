@@ -12,7 +12,7 @@
     lai tie būtu ātrāki. Ctrl + C pārtauks komandu, kamēr Ctrl + Z nopauzēs komandu. Ctrl Q atcels pēdējo darbību. Jāņem vērā, ka šie shortcuts atšķiras
     no mac vai windows platformām.
 
-*trešā nodarbība iepazīšanās ar c komandām.*
+*trešā nodarbība iepazīšanās ar kompilēšanas procesa soļiem.*
 
     C programēšanas valodai ir vairāki soļi kompilēšanas procesam. Kompilēšanas procesa mērķis ir pārcērst C kodu, kas ir saprotams 
     cilvēkas uz kodu, kas sastāv no bitiem, kas saprotams ciparu elektroniskajām ierīcēm. Šos atsevišķos soļus var izmantot lai izprastu koda darbību vai 
