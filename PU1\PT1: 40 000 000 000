@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    double a, b, rezultats;
+    printf("ievadīt skaitļus: ");
+    scanf("%lf %lf", &a, &b);  
+    
+    rezultats = a * b;
+    printf("rezultats = %.0lf", rezultats);
+    
+    return 0;
+}
+
+// pie pēdējā printf ir atxīmēts tas, lai tiktu uzrādīts rezultāts ar veseliem sdkaitļiem (%.0lf). JA tiks reizinati neveseli skaitļi, tiks atgriezts 0.
