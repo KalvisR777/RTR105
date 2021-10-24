@@ -1,0 +1,88 @@
+#include <stdio.h>
+
+ int main ()
+ {
+   int a, b, c, x;
+   printf ("Ievadīt skaitļus\n");
+   scanf ("%x %x %x", &a, &b, &c);
+   printf("kārtot dilstošā secībā - 1 vai augošā secībā - 2\n");
+   printf ("Izvēlēties diltošu vai augošu secību :  \n");
+   scanf ("%x", &x);
+   if (x == 1)
+     {
+       if(a>c && a>b)
+       {
+           if(b>c)
+           {
+                printf("%x %x %x \n", a, b, c);
+           }
+           else
+           {
+               printf("%x %x %x \n", a, c, b);
+           }
+       }
+       if(b>a && b>c)
+       {
+           if(a>c)
+           {
+                printf("%x %x %x \n", b, a, c);
+           }
+           else
+           {
+               printf("%x %x %x \n", b, c, a);
+           }
+       }
+       if(c>b && c>a)
+       {
+           if(b>a)
+           {
+                printf("%x %x %x \n", c, b, a);
+           }
+           else
+           {
+               printf("%x %x %x \n", c, a, b);
+           }
+       }
+     }
+
+
+   if (x == 2)
+     {
+       if(a<c && a<b)
+       {
+           if(b<c)
+           {
+                printf("%x %x %x§ \n", a, b, c);
+           }
+           else
+           {
+               printf("%x %x %x \n", a, c, b);
+           }
+       }
+       if(b<a && b<c)
+       {
+           if(a<c)
+           {
+                printf("%x %x %x \n", b, a, c);
+           }
+           else
+           
+           {
+               printf("%x %x %x \n", b, c, a);
+           }
+       }
+       if(c<b && c<a)
+       {
+           if(b<a)
+           {
+                printf("%x %x %x \n", c, b, a);
+           }
+           else
+           {
+               printf("%x %x %x \n", c, a, b);
+           }
+       }
+     }
+
+   return 0;
+ }
