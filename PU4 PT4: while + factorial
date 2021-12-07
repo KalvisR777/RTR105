@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+
+int main() {
+int a;
+
+printf("Datu tipa izvēle  --   char datu tips - 1, int datu tips - 2, long datu tips - 3: ");
+
+fflush(stdout);
+
+scanf("%d", &a);
+
+if(a==1)
+{
+char k=0, N, fact=1, fact_old;
+
+printf("Ievadīt skaitli, kuram aprēļkināt faktoriāli: ");
+fflush(stdout);
+scanf("%hhd", &N);
+  while(k<N) 
+ {
+ k++;
+ fact_old = fact;
+ fact *= k;
+
+ if((fact/k) != fact_old) 
+  {
+  printf("Skaitli nevar attēlot ar ievadīto datu tipu\n");
+  break;
+  }
+
+ }
+if((fact/k) == fact_old)
+printf(" %hhd faktoriālis ir - %hhd\n", N, fact);
+
+}
+
+
+if(a==2)
+{
+int k=0, N, fact=1, fact_old;
+
+printf("Ievadīt skaitli, kuram aprēļkināt faktoriāli: ");
+fflush(stdout);
+scanf("%d", &N);
+
+ while(k<N) 
+ {
+ k++;
+ fact_old = fact;
+ fact *= k;
+
+ if((fact/k) != fact_old) 
+  {
+  printf("Skaitli nevar attēlot ar ievadīto datu tipu\n");
+  break;
+  }
+
+ }
+if((fact/k) == fact_old)
+printf("skaitļa %d faktoriāls - %d\n", N, fact);
+}
+
+
+if(a==3)
+{
+long long k=0, N, fact=1, fact_old;
+
+printf("Ievadīt skaitli, kuram aprēļkināt faktoriāli: ");
+fflush(stdout);
+scanf("%lld", &N);
+
+ while(k<N) 
+ {
+ k++;
+ fact_old = fact;
+ fact *= k;
+
+ if((fact/k) != fact_old) 
+  {
+  printf("Skaitli nevar attēlot ar ievadīto datu tipu\n");
+  break;
+  }
+  }
+if((fact/k) == fact_old)
+printf(" %lld faktoriālis ir - %lld\n", N, fact);
+
+}
+
+return 0;
+
+}
