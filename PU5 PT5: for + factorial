@@ -1,0 +1,90 @@
+#include <stdio.h>
+
+int main ()
+{
+        int a,b;
+        int cycle;
+
+        printf("Ievadīt decimālu skaitli - \n");
+        scanf("%d",&a);
+        
+        printf("Izvēlieties datu tipu --  char - 1, int - 2, long - 3) - \n");
+        scanf("%d",&b);
+
+        if(b == 1){
+        
+        char ch=1;
+        char before;
+        
+        printf("Datu tipa char skaitlis - %d\n",a);
+        
+        for (cycle=1;cycle<=a;cycle++) {
+        before = ch;
+        ch *= cycle;
+        if (ch/cycle != before)
+                    {
+                      printf("Datu tips par mazu, lai aprēķinātu faktoriāli.\n");
+                      break;
+                    }
+                }
+        if(a == 0){
+          printf(" %d faktorials ir 1\n",a);
+          }
+        if(a>0 && ch/(cycle-1) == before){
+          printf(" %d faktoriāls ir %d\n",a,ch);
+          }
+        }
+
+        else if(b==2){
+        int nt = 1;
+        int before;
+        
+        printf("Datu tipa int, skaitlis - %d\n",a);
+        
+        for (cycle = 1;cycle<=a;cycle++){
+        before = nt;
+        nt *= cycle;
+        if (nt/cycle != before)
+                    {
+                     printf("Datu tips par mazu, lai aprēķinātu faktoriāli.\n");
+                     break;
+                    }
+                }
+        if(a == 0){
+          printf(" %d faktoriāls ir 1\n",a);
+          }
+        if(nt/(cycle-1) == before){
+          printf(" %d faktoriāls ir %d\n",a,nt);
+          }
+        }
+
+        else if(b==3){
+        
+        long long lg = 1;
+        long long before;
+        
+        printf("Datu tipa long, skaitlis %d\n",a);
+        
+        for(cycle = 1;cycle<=a;cycle++){
+        before = lg;
+        lg *= cycle;
+        if (lg/cycle != before)
+                     {
+                      printf("Datu tips par mazu, lai aprēķinātu faktoriāli.\n");
+                      break;
+                     }
+                   }
+        if(a == 0){
+        
+          printf(" %d faktoriāls ir 1\n",a);
+          }
+          
+        if(lg/(cycle-1) == before){
+        
+          printf(" %d faktoriāls ir %lld\n",a,lg);
+          }
+        }
+
+        return 0;
+        
+}
