@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+void f1(){
+
+printf("Start.\n\n");
+}
+void f2(int f2_num){
+        if(f2_num<=9){
+        
+        printf("skaitlis ir viencipara.\n");
+         }
+         if(f2_num>9){
+        
+          printf("skaitlis nav viencipara.\n");
+        }
+}
+
+int f3(){
+int f3_num;
+
+printf("Ievadīt atšķirīgu skaitli :\n");
+  scanf("%d",&f3_num);
+
+return f3_num;
+}
+
+int f4(int f3_out){
+int f4_out;
+f4_out = f3_out*3;
+return f4_out;
+}
+
+int main(){
+
+f1();
+
+int f2_num;
+
+printf("Ievadīt naturālu skaitli, lai noteikti vai tas ir viencipara.\n");
+  scanf("%d",&f2_num);
+  f2(f2_num);
+
+  int f3_out;
+
+printf("Ievadīt citu skaitli.\n.\n.\n.\n");
+
+  f3_out = f3();
+
+printf("Trešajā funkcijā tika ievadīts skaitlis - %d\n\n",f3_out);
+  int f4_out;
+
+printf("Ievadītais skaitlis tiks trīskāršots.\n\n");
+  f4_out = f4(f3_out);
+
+printf("Trīskāršotais skaitlis = %d\n",f4_out);
+return 0;
+}
