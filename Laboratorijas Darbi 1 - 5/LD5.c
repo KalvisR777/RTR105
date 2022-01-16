@@ -2,46 +2,42 @@
 #include <stdio.h>
 #include <string.h>
 
-void swap(char *xp, char *yp)
+void swap(char *xo, char *yo)
 {
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
+    int temp = *xo;
+    *xo = *yo;
+    *yo = temp;
 }
  
 // A function to implement bubble sort
 void bubbleSort(char arr[], int n)
 {
-   int i, j;
-   for (i = 0; i < n-1; i++)     
+   int x, y;
+   for (x = 0; x < n-1; x++)     
  
        // Last i elements are already in place  
-       for (j = 0; j < n-i-1; j++)
-           if (arr[j] > arr[j+1])
-              swap(&arr[j], &arr[j+1]);
+       for (y = 0; y < n-x-1; y++)
+           if (arr[y] > arr[y+1])
+              swap(&arr[y], &arr[y+1]);
 }
  
 /* Function to print an array */
 void printArray(char arr[], int size)
 {
-    int i;
-    for (i=1; i < size; i++)
-        printf("%d ", arr[i]);
+    int x;
+    for (x=1; x < size; x++)
+        printf("%d ", arr[x]);
     printf("\n");
     
 }
 
-/*void modaArray(int arr[], char arr2[], int size){
-	
-	
-}*/
 
 double averageArray(char arr[], int size){
 	
 	
-	int i, sum = 0;
-    for (i=1; i < size; i++){
-    	sum += arr[i];
+	int x, sum = 0;
+    for (x=1; x < size; x++){
+    	sum += arr[x];
 	}
 	return sum/((size-1)*1.0);
 }
@@ -59,68 +55,66 @@ void medianArray(char arr[], int size){
 
 void histogram(char arr[], int size){
 	
-	int i, element = 1, count = 0, max = 0;
+	int x, element = 1, count = 0, max = 0;
 	int freq[100];
 	char arr2[100];
 	char ref = arr[1];
-	for(i = 1; i < strlen(arr)+1; i++){
-		if(arr[i] == ref){
-			arr2[element] = arr[i];
+	for(x = 1; x < strlen(arr)+1; x++){
+		if(arr[x] == ref){
+			arr2[element] = arr[x];
 			count++;
 		}
 		else{
 			freq[element] = count;
 			element++;
-			arr2[element] = arr[i];
+			arr2[element] = arr[x];
 			count = 1;
 			freq[element] = count;
-			ref = arr[i];
+			ref = arr[x];
 		}
 	}
-	for(i = 1; i < element; i++){
-		printf("%c %d\n", arr2[i], freq[i]);
+	for(x = 1; x < element; x++){
+		printf("%c %d\n", arr2[x], freq[x]);
 	}
 	printf("\n");
 
-	for(i = 1; i < element; i++){
-		if(freq[i] >= max){
-			max = freq[i];
+	for(x = 1; x < element; x++){
+		if(freq[x] >= max){
+			max = freq[x];
 		}
 	}
 
-	for(i = 1; i < element; i++){
-		if(freq[i] == max){
-			printf("moda: %c  skaits: %d\n", arr2[i], freq[i]);
+	for(x = 1; x < element; x++){
+		if(freq[x] == max){
+			printf("moda: %c  skaits: %d\n", arr2[x], freq[x]);
 		}
 	}
 	
 }
  
-// Driver program to test above functions
+// Lai testētu iepriekšējās funkcijas //
 int main()
 {
-    int i, m;
-    //fgetc(stdin);
+    int x, m;
     char arr[100];
-    printf("Aizpildi masivu: ");
+    printf("Ievadīt vērtības masīvā: ");
     
-    fgets(arr, sizeof(arr), stdin);
-    puts(arr);
+   	 fgets(arr, sizeof(arr), stdin);
+   	 puts(arr);
     
-    int n = strlen(arr);
-    bubbleSort(arr, n);
-
+   	 int n = strlen(arr);
+   	 bubbleSort(arr, n);
  
-    printf("Sorted array: ");
+    printf("Sakārtots masīvs: ");
     puts(arr);
     
-    printArray(arr, strlen(arr));
-    printf("\n");
-    printf("Minimala vertiba: %d\n", arr[1]);
-    printf("Maksimala vertiba: %d\n", arr[strlen(arr)-1]);
-    printf("Videjais: %.3f\n", averageArray(arr, strlen(arr)));
-    medianArray(arr, strlen(arr));
-    histogram(arr, strlen(arr));
+	    printArray(arr, strlen(arr));
+	    printf("\n");
+	    printf("min: %d\n", arr[1]);
+	    printf("max: %d\n", arr[strlen(arr)-1]);
+	    printf("avg: %.3f\n", averageArray(arr, strlen(arr)));
+	    medianArray(arr, strlen(arr));
+	    histogram(arr, strlen(arr));
     
     return 0;
 }
