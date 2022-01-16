@@ -1,5 +1,6 @@
 /Koda beigās ir kods lai iztestētu sākotnējā koda vērtības!/
 	
+				/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
 	
 #include <stdio.h>
 #include <string.h>
