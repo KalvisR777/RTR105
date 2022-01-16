@@ -1,3 +1,9 @@
+/Integrāļa laukums tiek meklēts ar 3 metodēm, taisnstūra metodi, trapeces metodi un Simpsona metodi. 
+Prezcizitāte šim metodēm ir augoša, tas ir, Simpsona metode ir visprecīzākā, trapeču metode - otra precīzākā 
+un taisnstūru metode ir vismazāk precīzā. Piemēram, vinkāršiem uzdevumiem integrāli varnrēķināt ar taisnstūru
+meotdi, bet Simpsona metodi jāizmanto uzdevumiem kur precizitāte ir nozīmīga./
+
+
 #include <stdio.h>
 #include <math.h>
 
