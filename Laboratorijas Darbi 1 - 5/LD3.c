@@ -1,3 +1,8 @@
+/Programa dod āra 1. un 2. funkcijas atvasinājuma vērtības.
+Vērtības atvasinājumam tiek rēķinātas izvēlētajā apgabalā ar noteiktu delta vērtību./
+
+
+
 #include <stdio.h>
 #include <math.h>
 
