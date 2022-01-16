@@ -1,3 +1,6 @@
+/Programma atrod x vērtību noteiktā apgabalā ar noteiktu delta_x vērtību. Sakni meklē ar vērtības zīmju metodi/
+
+
 #include <stdio.h>
 #include <math.h>
 
