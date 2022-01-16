@@ -1,4 +1,6 @@
-
+/Koda beigās ir kods lai iztestētu sākotnējā koda vērtības!/
+	
+	
 #include <stdio.h>
 #include <string.h>
 
@@ -9,19 +11,16 @@ void swap(char *xo, char *yo)
     *yo = temp;
 }
  
-// A function to implement bubble sort
 void bubbleSort(char arr[], int n)
 {
    int x, y;
    for (x = 0; x < n-1; x++)     
  
-       // Last i elements are already in place  
        for (y = 0; y < n-x-1; y++)
            if (arr[y] > arr[y+1])
               swap(&arr[y], &arr[y+1]);
 }
  
-/* Function to print an array */
 void printArray(char arr[], int size)
 {
     int x;
@@ -36,7 +35,7 @@ double averageArray(char arr[], int size){
 	
 	
 	int x, sum = 0;
-    for (x=1; x < size; x++){
+        for (x=1; x < size; x++){
     	sum += arr[x];
 	}
 	return sum/((size-1)*1.0);
@@ -92,7 +91,6 @@ void histogram(char arr[], int size){
 	
 }
  
-// Lai testētu iepriekšējās funkcijas //
 int main()
 {
     int x, m;
