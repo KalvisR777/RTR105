@@ -1,7 +1,8 @@
-/Programa dod āra 1. un 2. funkcijas atvasinājuma vērtības.
-Vērtības atvasinājumam tiek rēķinātas izvēlētajā apgabalā ar noteiktu delta vērtību./
+/Programa dod āra 1. un 2. funkcijas atvasinājuma vērtības. Par cik, ka man trāpijās 
+eksponentfunkcija, šis uzdevums ir vieglāks. Vērtības atvasinājumam tiek rēķinātas izvēlētajā
+apgabalā ar noteiktu delta vērtību./
 
-
+		/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
 
 #include <stdio.h>
 #include <math.h>
