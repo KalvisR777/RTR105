@@ -1,5 +1,5 @@
-/Šī programma atrod izvēlētās x vērtības funkcijas vērtību funkcijas definīcijas apgabalā. Šajā metodē 
-tiek salīdzināts rezultāts no Teilora rindām un parastās funkcijas. /
+/Šī programma atrod izvēlētās x vērtības funkcijas vērtību funkcijas definīcijas apgabalā.
+Tiek izmantotas teilora rindas, palielinot teilora rindu skaitu, funkcijas vērtība it tubāka orig. pētāmajai funkcijai ( y(x)=exp(-x) ) /
 
 		/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
 
