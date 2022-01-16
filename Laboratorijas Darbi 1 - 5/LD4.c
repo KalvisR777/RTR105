@@ -3,6 +3,7 @@ Prezcizitāte šim metodēm ir augoša, tas ir, Simpsona metode ir visprecīzāk
 un taisnstūru metode ir vismazāk precīzā. Piemēram, vinkāršiem uzdevumiem integrāli varnrēķināt ar taisnstūru
 meotdi, bet Simpsona metodi jāizmanto uzdevumiem kur precizitāte ir nozīmīga./
 
+	/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
 
 #include <stdio.h>
 #include <math.h>
