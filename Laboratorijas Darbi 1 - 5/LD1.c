@@ -1,3 +1,8 @@
+/Šī programma atrod izvēlētās x vērtības funkcijas vērtību funkcijas definīcijas apgabalā. Šajā metodē 
+tiek salīdzināts rezultāts no Teilora rindām un parastās funkcijas. /
+
+		/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
+
 #include <stdio.h>
 #include <math.h>
 
