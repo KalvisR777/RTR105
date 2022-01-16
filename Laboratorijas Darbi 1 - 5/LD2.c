@@ -1,7 +1,9 @@
 /Programma atrod x vērtību noteiktā apgabalā ar noteiktu delta_x vērtību. Sakni meklē ar vērtības zīmju metodi/
+	
+		/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
 
 
-#include <stdio.h>
+	#include <stdio.h>
 #include <math.h>
 
 int main()
