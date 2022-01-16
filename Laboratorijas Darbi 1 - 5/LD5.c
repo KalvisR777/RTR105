@@ -1,4 +1,4 @@
-/Koda beigās ir kods lai iztestētu sākotnējā koda vērtības!/
+/Koda beigās ir kods lai iztestētu sākotnējā koda vērtības! ASCII simbolu biežuma grafiks tiek eksportēts kā stabiņu diagramma./
 	
 				/    Grafiks šim uzdevumam ir pieejams "Laboratorijas ~Darbi 1 - 5" folderī!!    /
 	
