@@ -74,7 +74,8 @@ void twodLinearIntp(float** raw_2D, float** finegrid_2D, int row, int column, in
 	}
 }
 
-double LangrangeIntp(double *x, double *y, double intp_x, int n) // Lagrandža polinoma interpolācijas metode. //
+double LangrangeIntp(double *x, double *y, double intp_x, int n)
+	// Lagrandža polinoma interpolācijas metode. //
 {
 	int i, j;
 	double a = 1.0, b = 1.0 ,intp_y = 0.0;
